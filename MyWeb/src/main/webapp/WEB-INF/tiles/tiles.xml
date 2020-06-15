@@ -1,0 +1,77 @@
+<!DOCTYPE tiles-definitions PUBLIC  
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"  
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">  
+<tiles-definitions>  
+
+  
+    <definition name="defaultTemplate" template="/WEB-INF/layout/template.jsp">
+        <put-attribute name="title" value="" />
+         <put-attribute name="header" value="/WEB-INF/layout/header.jsp" />
+        <put-attribute name="menu" value="/WEB-INF/layout/menu.jsp" />
+        <put-attribute name="body" value="" />
+        <put-attribute name="footer" value="/WEB-INF/layout/footer.jsp" />
+    </definition>
+    
+    <definition name="loginTemp" template="/WEB-INF/layout/logintemplate.jsp">
+        <put-attribute name="title" value="" />
+        <put-attribute name="body" value="" />
+    </definition>
+    
+    <definition name="loginsuccess" extends="defaultTemplate">  
+        <put-attribute name="title" value="GalaxE Solutions Pvt. Ltd." />
+        <put-attribute name="body" value="/WEB-INF/views/loginsuccess.jsp" />  
+    </definition> 
+    
+    <definition name="login" extends="defaultTemplate">  
+        <put-attribute name="title" value="GalaxE Solutions Pvt. Ltd." />
+        <put-attribute name="body" value="/WEB-INF/views/login.jsp" />  
+    </definition>  
+    
+    <definition name="edituserdetails" extends="defaultTemplate">  
+        <put-attribute name="title" value="GalaxE Solutions Pvt. Ltd." />
+        <put-attribute name="body" value="/WEB-INF/views/edituserdetails.jsp" />  
+    </definition>
+    
+    <definition name="home" extends="defaultTemplate">  
+        <put-attribute name="title" value="GalaxE Home" />
+        <put-attribute name="body" value="/WEB-INF/views/home.jsp" />  
+    </definition>  
+    
+    <definition name="registration" extends="defaultTemplate">  
+        <put-attribute name="title" value="GalaxE Solutions Pvt. Ltd." />
+        <put-attribute name="body" value="/WEB-INF/views/registration.jsp" />  
+    </definition>
+    
+    <definition name="registrationsuccess" extends="defaultTemplate">  
+        <put-attribute name="title" value="GalaxE Solutions Pvt. Ltd." />
+        <put-attribute name="body" value="/WEB-INF/views/registrationsuccess.jsp" />  
+    </definition>
+    
+    <definition name="registrationfail" extends="defaultTemplate">  
+        <put-attribute name="title" value="GalaxE Solutions Pvt. Ltd." />
+        <put-attribute name="body" value="/WEB-INF/views/registrationfail.jsp" />  
+    </definition>
+ 
+  <definition name="careers" extends="defaultTemplate">  
+        <put-attribute name="title" value="GalaxE Solutions Pvt. Ltd." />
+        <put-attribute name="body" value="/WEB-INF/views/careers.jsp" />  
+    </definition>
+    
+  <definition name="aboutus" extends="defaultTemplate">  
+        <put-attribute name="title" value="GalaxE Solutions Pvt. Ltd." />
+        <put-attribute name="body" value="/WEB-INF/views/aboutus.jsp" />  
+    </definition>
+   
+   <definition name="viewall" extends="defaultTemplate">  
+        <put-attribute name="title" value="GalaxE Solutions Pvt. Ltd." />
+        <put-attribute name="body" value="/WEB-INF/views/viewall.jsp" />  
+    </definition>
+    
+   <definition name="searchresult" extends="defaultTemplate">  
+        <put-attribute name="title" value="GalaxE Solutions Pvt. Ltd." />
+        <put-attribute name="body" value="/WEB-INF/views/searchresult.jsp" />  
+    </definition> 
+ 
+   
+</tiles-definitions> 
+    

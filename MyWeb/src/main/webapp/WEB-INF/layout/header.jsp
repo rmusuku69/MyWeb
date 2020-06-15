@@ -1,0 +1,1 @@
+<center><img src="resources\galaxe.PNG" width="717" height="298"/></center>

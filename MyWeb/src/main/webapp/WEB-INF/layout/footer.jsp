@@ -1,0 +1,1 @@
+<p><h4>© 2012 - 2013 GalaxE.Solutions, Inc. | All Rights Reserved </h4></p>
